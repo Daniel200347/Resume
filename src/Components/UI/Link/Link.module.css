@@ -1,0 +1,31 @@
+.link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+    transition: 500ms;
+    cursor: pointer;
+    gap: 10px;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.link::after {
+    position: absolute;
+    background: var(--white);
+    transition: 300ms;
+    content: "";
+    height: 1px;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+}
+
+
+.link:hover::after {
+    width: 100%;
+    opacity: 1;
+}

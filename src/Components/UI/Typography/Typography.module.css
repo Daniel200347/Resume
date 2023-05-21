@@ -1,0 +1,61 @@
+.btnMenu {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.btn{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 25px;
+}
+
+.h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 78px;
+}
+
+.h2 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 57px;
+}
+
+.p1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.p2 {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.title {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.titleProject{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 39px;
+
+}
+
+.cardProjectTitle{
+    font-family: 'Courier Prime';
+    font-weight: 700;
+    font-size: 33px;
+}
+
+.cardProjectLink{
+    font-family: 'Courier Prime';
+    font-weight: 400;
+    font-size: 25px;
+}

@@ -1,0 +1,56 @@
+.wrapper {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    letter-spacing: 0.1em;
+    color: var(--green);
+}
+
+.greetings {
+    color: var(--white);
+}
+
+.text {
+    color: var(--white);
+}
+
+@media (max-width: 1420px) {
+    .img {
+        width: 500px;
+        height: 500px;
+    }
+
+    .greetings {
+        font-size: 29px;
+    }
+
+    .title {
+        font-size: 68px;
+    }
+
+    .text {
+        font-size: 47px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .greetings {
+        font-size: 26px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .text {
+        font-size: 34px;
+    }
+}

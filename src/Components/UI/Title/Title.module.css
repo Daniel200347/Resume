@@ -1,0 +1,13 @@
+.title {
+    display: inline-flex;
+    color: var(--green);
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 57px;
+}
+
+.white {
+    display: inline-flex;
+    color: var(--white);
+    padding-left: 10px;
+}

@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    padding-top: 100px;
+    background-image: url("./image/RoadMap.png");
+    background-position: center top 120px;
+    background-repeat: no-repeat;
+}
+
+
+.title {
+    margin-bottom: 100px;
+}

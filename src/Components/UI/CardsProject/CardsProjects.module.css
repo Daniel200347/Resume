@@ -1,0 +1,14 @@
+.leftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSide {
+    align-items: end;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 30%;
+}
