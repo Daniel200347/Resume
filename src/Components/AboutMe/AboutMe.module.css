@@ -43,21 +43,15 @@
 }
 
 @media (max-width: 998px) {
+
     .wrapper {
+        display: grid;
         grid-template-columns: 1fr;
     }
 
-    .card {
-        max-width: 100%;
-        width: 100%;
-    }
-
     .cardMenu {
-        justify-content: center;
-    }
-
-    .wrapper {
-        margin-bottom: 100px;
+        align-content: center;
+        flex-direction: column;
     }
 
 }

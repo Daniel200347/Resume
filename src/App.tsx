@@ -10,10 +10,8 @@ import MobileHeader from "./Components/MobileHeader";
 function App() {
     return (
         <>
-            {/*<Header />*/}
-            <MainContainer>
-            <MobileHeader></MobileHeader>
-            </MainContainer>
+            <Header/>
+            <MobileHeader/>
             <MainContainer>
                 <Main
                     name={
@@ -29,6 +27,7 @@ function App() {
             <MainContainer>
                 <Projects/>
             </MainContainer>
+
         </>
     );
 }

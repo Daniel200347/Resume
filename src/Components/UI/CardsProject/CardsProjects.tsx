@@ -33,20 +33,19 @@ function CardsProjects({
             <div className={classes.leftSide}>
                 {isShowBlockLeft && (
                     <Project
-                        hrefDemo={leftHrefDemo}
-                        hrefPreview={leftHrefPreview}
+                        hrefDemo={leftHrefPreview}
+                        hrefPreview={leftHrefDemo}
                         className={classes.card}
                         title={leftTitle}
                         text={leftText}
                     />
                 )}
             </div>
-
             {isShowBlockRight && (
                 <div className={classes.rightSide}>
                     <Project
-                        hrefDemo={rightHrefDemo}
-                        hrefPreview={rightHrefPreview}
+                        hrefDemo={rightHrefPreview}
+                        hrefPreview={rightHrefDemo}
                         className={classes.card}
                         title={rightTitle}
                         text={rightText}

@@ -12,3 +12,48 @@
 .card {
     width: 30%;
 }
+
+@media (max-width: 998px) {
+    .leftSide {
+        margin-left: 20px;
+    }
+
+    .rightSide {
+        margin-right: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .leftSide {
+        margin-left: 26px;
+    }
+
+    .rightSide {
+        margin-right: 26px;
+    }
+}
+
+@media (max-width: 554px) {
+
+    .card {
+        width: 50%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftSide {
+        align-items: center;
+        margin: 0;
+        padding-bottom: 80px;
+    }
+
+    .rightSide {
+        align-items: center;
+        margin: 0;
+        padding-bottom: 80px;
+    }
+}

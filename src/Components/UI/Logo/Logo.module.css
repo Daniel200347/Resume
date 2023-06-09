@@ -1,0 +1,12 @@
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.titleLeft {
+    color: var(--gray);
+}
+
+.titleRight {
+    color: var(--white);
+}

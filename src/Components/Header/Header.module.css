@@ -10,19 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.title {
-    display: flex;
-    align-items: center;
-}
-
-.titleLeft {
-    color: var(--gray);
-}
-
-.titleRight {
-    color: var(--white);
-}
-
 .wrapper {
     display: flex;
     align-items: center;
@@ -61,12 +48,20 @@ html {
     .linkMenu {
         gap: 50px;
     }
+
+    .link{
+        font-size: 24px;
+    }
+
+    .logo{
+        font-size: 44px;
+    }
 }
 
 @media (max-width: 1250px) {
 
-    .title {
-        font-size: 34px;
+    .logo{
+        font-size: 40px;
     }
 
     .button {
@@ -81,4 +76,17 @@ html {
     .linkMenu {
         gap: 30px;
     }
+
+    .link{
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 998px) {
+    .header {
+        display: none;
+
+    }
+
 }

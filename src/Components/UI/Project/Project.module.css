@@ -35,3 +35,71 @@
     }
 
 }
+
+@media (max-width: 998px) {
+    .text {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .ButtonWrapper {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .button {
+        max-width: 54px;
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .ButtonWrapper {
+        margin-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .button {
+        max-width: 54px;
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 554px) {
+
+.title{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+    .text {
+        font-size: 18px;
+    }
+
+    .ButtonWrapper {
+        margin-top: 20px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .button {
+        max-width: 54px;
+        font-size: 18px;
+    }
+
+}

@@ -13,14 +13,14 @@ function Main({name}: IProps) {
     return (
         <div className={classes.wrapper}>
             <div>
-                <Typography type={TypographyTypes.titleProject}>
-                    <span className={classes.greetings}>Hello, i am</span>
+                <Typography type={TypographyTypes.titleProject} className={classes.greetings}>
+                    <span>Hello, i am</span>
                 </Typography>
-                <Typography type={TypographyTypes.h1}>
-                    <p className={classes.title}>{name}</p>
+                <Typography type={TypographyTypes.h1} className={classes.title}>
+                    <p>{name}</p>
                 </Typography>
-                <Typography type={TypographyTypes.h2}>
-                    <span className={classes.text}>Frontend Developer</span>
+                <Typography type={TypographyTypes.h2} className={classes.text}>
+                    <span>Frontend Developer</span>
                 </Typography>
             </div>
             <img className={classes.img} src={image} alt="Тут была картинка :с"/>

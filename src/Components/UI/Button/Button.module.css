@@ -17,3 +17,10 @@
 .button:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 998px) {
+    .button {
+        padding: 4px 12px 4px 12px;
+    }
+
+}
